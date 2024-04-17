@@ -28,7 +28,6 @@ pipeline {
             }
         }
         
-        
         stage('checkout from Git') {
             steps {
                 checkoutGit('https://github.com/SoftwareDevDeveloper/Youtube-clone-app.git', 'main')
